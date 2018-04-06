@@ -1,0 +1,11 @@
+name: campcomposer
+recipe: drupal8
+config:
+  webroot: web
+  php: '7.1'
+services:
+  appserver:
+    ssl: true
+tooling:
+  git:
+    service: appserver
