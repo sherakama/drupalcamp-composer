@@ -26,7 +26,7 @@
         "drupal/bootstrap": "^3.11",
         "drupal/console": "^1.0.2",
         "drupal/core": "~8.5.1",
-        "drupal/webform": "~4.0",
+        "drupal/webform": "~5.0",
         "drush/drush": "^9.0.0",
         "su-sws/stanford_basic": "dev-8.x-2.x",
         "vlucas/phpdotenv": "^2.4",

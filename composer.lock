@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "53862ddadcaf0f94475ae37fc9a69492",
+    "content-hash": "157eb254abf9f900b1cd0a1c603f7dd2",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1914,41 +1914,60 @@
         },
         {
             "name": "drupal/webform",
-            "version": "dev-4.x",
+            "version": "5.0.0-rc8",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/webform",
-                "reference": "e6eff421097483c776eef253aa517d73cf44a1de"
+                "reference": "8.x-5.0-rc8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/webform-8.x-5.0-rc8.zip",
+                "reference": "8.x-5.0-rc8",
+                "shasum": "afd630a330d1481085979bf30e9d06eabebd1ca1"
             },
             "require": {
-                "drupal/core": "~8.0"
+                "drupal/core": "*"
+            },
+            "require-dev": {
+                "drupal/devel": "*",
+                "drupal/token": "*",
+                "drupal/webform_node": "*",
+                "drupal/webform_scheduled_email": "*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-4.x": "4.x-dev"
+                    "dev-5.x": "5.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-4.x-dev",
-                    "datestamp": "1480323237",
+                    "version": "8.x-5.0-rc8",
+                    "datestamp": "1522698184",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
+                        "message": "RC releases are not covered by Drupal security advisories."
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
                     }
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
-                    "name": "DanChadwick",
-                    "homepage": "https://www.drupal.org/user/504278"
+                    "name": "Jacob Rockowitz (jrockowitz)",
+                    "homepage": "https://www.drupal.org/u/jrockowitz",
+                    "role": "Maintainer"
                 },
                 {
-                    "name": "Liam Morland",
-                    "homepage": "https://www.drupal.org/user/493050"
+                    "name": "Alexander Trotsenko (bucefal91)",
+                    "homepage": "https://www.drupal.org/u/bucefal91",
+                    "role": "Co-maintainer"
                 },
                 {
                     "name": "bucefal91",
@@ -1983,11 +2002,14 @@
                     "homepage": "https://www.drupal.org/user/865256"
                 }
             ],
-            "homepage": "https://www.drupal.org/project/webform",
+            "description": "Enables the creation of webforms and questionnaires.",
+            "homepage": "https://drupal.org/project/webform",
             "support": {
-                "source": "http://cgit.drupalcode.org/webform"
-            },
-            "time": "2016-11-28 07:16:23"
+                "source": "http://cgit.drupalcode.org/webform",
+                "issues": "https://www.drupal.org/project/issues/webform?version=8.x",
+                "docs": "https://www.drupal.org/docs/8/modules/webform",
+                "forum": "https://drupal.stackexchange.com/questions/tagged/webform"
+            }
         },
         {
             "name": "drush/drush",
@@ -6172,16 +6194,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "5.3.1",
+            "version": "5.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "340d86b2c417f6966b8fa0aee339ba3f671ebab7"
+                "reference": "c89677919c5dd6d3b3852f230a663118762218ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/340d86b2c417f6966b8fa0aee339ba3f671ebab7",
-                "reference": "340d86b2c417f6966b8fa0aee339ba3f671ebab7",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/c89677919c5dd6d3b3852f230a663118762218ac",
+                "reference": "c89677919c5dd6d3b3852f230a663118762218ac",
                 "shasum": ""
             },
             "require": {
@@ -6231,7 +6253,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2018-04-06T14:09:56+00:00"
+            "time": "2018-04-06T15:36:58+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
