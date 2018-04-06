@@ -28,7 +28,7 @@
         "drupal/core": "~8.5.1",
         "drupal/webform": "~4.0",
         "drush/drush": "^9.0.0",
-        "su-sws/stanford_basic": "dev-8.x-1.x",
+        "su-sws/stanford_basic": "dev-8.x-2.x",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
@@ -84,6 +84,9 @@
             ],
             "web/themes/contrib/{$name}": [
                 "type:drupal-theme"
+            ],
+            "web/themes/custom/{$name}": [
+                "type:drupal-custom-theme"
             ],
             "drush/contrib/{$name}": [
                 "type:drupal-drush"

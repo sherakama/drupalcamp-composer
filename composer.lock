@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "37231a27f4e32951baecde6467f211db",
+    "content-hash": "53862ddadcaf0f94475ae37fc9a69492",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3151,29 +3151,29 @@
         },
         {
             "name": "su-sws/stanford_basic",
-            "version": "dev-8.x-1.x",
+            "version": "dev-8.x-2.x",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SU-SWS/stanford_basic.git",
-                "reference": "8ac1b994958163810ed03d07d6c65fe86c88129d"
+                "reference": "5ebe2f64b5cb1748c5253a040346438efb2e9507"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SU-SWS/stanford_basic/zipball/8ac1b994958163810ed03d07d6c65fe86c88129d",
-                "reference": "8ac1b994958163810ed03d07d6c65fe86c88129d",
+                "url": "https://api.github.com/repos/SU-SWS/stanford_basic/zipball/5ebe2f64b5cb1748c5253a040346438efb2e9507",
+                "reference": "5ebe2f64b5cb1748c5253a040346438efb2e9507",
                 "shasum": ""
             },
-            "type": "stanford-theme",
+            "type": "drupal-custom-theme",
             "license": [
                 "GPL-2.0+"
             ],
             "description": "Stanford Basic Branding Theme.",
             "homepage": "https://github.com/SU-SWS/stanford_basic",
             "support": {
-                "source": "https://github.com/SU-SWS/stanford_basic/tree/8.x-1.x",
+                "source": "https://github.com/SU-SWS/stanford_basic/tree/8.x-2.x",
                 "issues": "https://github.com/SU-SWS/stanford_basic/issues"
             },
-            "time": "2017-11-01 19:14:15"
+            "time": "2018-04-03 17:45:13"
         },
         {
             "name": "symfony-cmf/routing",
